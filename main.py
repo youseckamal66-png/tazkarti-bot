@@ -25,4 +25,4 @@ async def check_matches():
         await page.goto(URL, wait_until="networkidle")
         await page.wait_for_timeout(5000)
 
-        elements = await page.query_selector_all(".one-block
+        elements = await page.query_selector_all(".one-block")
